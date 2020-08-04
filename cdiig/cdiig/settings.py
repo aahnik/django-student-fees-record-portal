@@ -31,6 +31,7 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+    'home.apps.HomeConfig',
     'student_management.apps.StudentManagementConfig',
     'django.contrib.admin',
     'django.contrib.auth',
@@ -67,6 +68,7 @@ TEMPLATES = [
         },
     },
 ]
+
 
 WSGI_APPLICATION = 'cdiig.wsgi.application'
 
