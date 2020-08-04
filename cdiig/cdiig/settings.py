@@ -31,6 +31,7 @@ ALLOWED_HOSTS = ['192.168.1.6']
 # Application definition
 
 INSTALLED_APPS = [
+    'student_management.apps.StudentManagementConfig',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
