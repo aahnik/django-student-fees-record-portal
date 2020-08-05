@@ -17,7 +17,11 @@ StudyCenter_CHOICES = [
     ('O', 'Bari Shalbagan'),
     ('M', 'Madhyamgram'),
     ('B', 'Bagbazar'),
-    ('S', 'Station'),
+    ('R', 'Station'),
+    ('C','Champadali'),
+    ('K','Kailashnagar'),
+    ('S','Sodepur'),
+    ('-','Not Assigned')
 ]
 
 
@@ -25,7 +29,8 @@ Section_CHOICES = [
     ('A', 'A'),
     ('B', 'B'),
     ('C', 'C'),
-    ('D', 'D')
+    ('D', 'D'),
+    ('-', 'Not Assigned')
 ]
 
 
@@ -64,10 +69,17 @@ class Student(models.Model):
     def __str__(self):
         return self.s_name
 
+    
     def batchCode(self):
         code = self.grade+self.studyCenter+self.section
         return code
 
+    
     def sessionCode(self):
         code = self.acadType+self.acadTarget
         return code
+
+    def active(self):
+        pass
+    batchCode.admin_order_field = 'grade'
+    sessionCode.admin_order_field = 'acadTarget'
