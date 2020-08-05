@@ -20,4 +20,4 @@ work flow
 (note : current month is defined by month last added)
 
 - [ ] add ability to see a tick or cross based on above 
-
+- [ ] add an action to mark current month paid for selected queryset of students
