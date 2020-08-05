@@ -16,7 +16,10 @@ work flow
 - [x] add feature: sort by grade and acadTarget
 - [x] add feature: filter by class, study center and section 
 - [] define a method which returns true for active students 
+
 (active students : students who cleared current month fees) 
+
 (note : current month is defined by month last added)
+
 - [] add ability to see a tick or cross based on above 
 
