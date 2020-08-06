@@ -7,7 +7,9 @@ this project is not contructed with a multi-year management system
 new project which will have  multi-year durability to be built for upcoming years
 
 
-work flink to admin in home page
+## work flow 
+
+- [x] link to admin in home page
 - [x] successfully import data from existing sheets
 - [x] to see students in feeRecord month in Django Admin
 - [x] search by student name 
