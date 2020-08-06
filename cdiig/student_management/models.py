@@ -18,10 +18,10 @@ StudyCenter_CHOICES = [
     ('M', 'Madhyamgram'),
     ('B', 'Bagbazar'),
     ('R', 'Station'),
-    ('C','Champadali'),
-    ('K','Kailashnagar'),
-    ('S','Sodepur'),
-    ('-','Not Assigned')
+    ('C', 'Champadali'),
+    ('K', 'Kailashnagar'),
+    ('S', 'Sodepur'),
+    ('-', 'Not Assigned')
 ]
 
 
@@ -46,6 +46,7 @@ Grade_CHOICES = [
 class FeesRecord(models.Model):
 
     month = models.CharField('Month', max_length=12)
+    is_selected = models.BooleanField(default=False)
 
     def __str__(self):
         return self.month
@@ -63,23 +64,29 @@ class Student(models.Model):
     studyCenter = models.CharField(max_length=2, choices=StudyCenter_CHOICES)
     section = models.CharField(max_length=1, choices=Section_CHOICES)
     grade = models.CharField(max_length=2, choices=Grade_CHOICES)
+    # active = models.BooleanField(default=True)
 
     feesRecords = models.ManyToManyField(FeesRecord, blank=True)
 
     def __str__(self):
         return self.s_name
 
-    
     def batchCode(self):
         code = self.grade+self.studyCenter+self.section
         return code
 
-    
     def sessionCode(self):
         code = self.acadType+self.acadTarget
         return code
 
-    def active(self):
-        pass
+    def cleared(self):
+        selectedMonths = [
+            month for month in FeesRecord.objects.all() if month.is_selected]
+        check = all(item in self.feesRecords.all()
+                    for item in selectedMonths)  # LEARNT
+        return check
+        # returns True when no months are selected
+
     batchCode.admin_order_field = 'grade'
     sessionCode.admin_order_field = 'acadTarget'
+    cleared.boolean = True
