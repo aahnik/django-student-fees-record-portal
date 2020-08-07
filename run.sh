@@ -1,3 +1,4 @@
+# this is for my local dev environment not for server side
 source venv_iig_admin/bin/activate
 cd cdiig/
 python3 manage.py makemigrations student_management

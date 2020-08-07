@@ -21,6 +21,8 @@ new project which will have  multi-year durability to be built for upcoming year
 - [x] see a tick or cross based on above 
 - [x] action to mark selected month(s) paid for selected queryset of students
 - [x] **Release Beta 1.0**
+- [ ] learn more about deployment, make security changes required for deployment 
+- [ ] deploy on pythonanywhere 
 - [ ] Test Beta 1.0  for 3 days (atleast)  with real data and real users
 - [ ] Release **Stable 1.0**  after tweaking for betterment or debugging (if any bug caught)
 
