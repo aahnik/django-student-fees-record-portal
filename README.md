@@ -44,4 +44,4 @@ new project which will have  multi-year durability to be built for upcoming year
 
 end_of_life
 
-No support| No issues | No PRs
+**No support | No issues | No PRs**
