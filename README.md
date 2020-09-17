@@ -1,4 +1,18 @@
-# iig_admin
+iig_admin
+
+UPDATE :
+this Project has been aborted. 
+
+# [See new Projects](https://github.com/aahnik?tab=repositories)
+
+### DANGER: ☠️ DONT USE THIS PROJECT
+#### 🐞🐞 maximum bugs
+
+
+[![Generic badge](https://img.shields.io/badge/maintained-no-RED.svg)](https://aahnik.github.io/)
+[![No Maintenance Intended | Archived](http://unmaintained.tech/badge.svg)](https://gitHub.com/aahnik/iig_admin/graphs/commit-activity)
+[![Generic badge](https://img.shields.io/badge/bugs-yes-YELLOW.svg)](https://aahnik.github.io/)
+
 Management of Student Data
 NOTE this project is to be used only for academic year 2020 to 2021
 
@@ -23,12 +37,11 @@ new project which will have  multi-year durability to be built for upcoming year
 - [x] **Release Beta 1.0**
 - [x] learn more about deployment, make security changes required for deployment 
 - [x] deploy on pythonanywhere 
-- [ ] Test Beta 1.0  for 3 days (atleast)  with real data and real users
-- [ ] Release **Stable 1.0**  after tweaking for betterment or debugging (if any bug caught)
 
----
 
-- [ ] filter students based on 'cleared' status
-- [ ] activate and deactivate students
-- [ ] filter students by activation status, by default show active 
+## PROJECT ABORTED
 
+
+end_of_life
+
+No support| No issues | No PRs
