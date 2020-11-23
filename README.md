@@ -1,8 +1,8 @@
 # iig_admin
 
-[![Generic badge](https://img.shields.io/badge/maintained-no-RED.svg)](https://aahnik.github.io/)
 [![No Maintenance Intended | Archived](https://unmaintained.tech/badge.svg)](https://gitHub.com/aahnik/iig_admin/graphs/commit-activity)
-[![Generic badge](https://img.shields.io/badge/bugs-yes-YELLOW.svg)](https://aahnik.github.io/)
+
+![demo](images/iig-admin-sample.gif)
 
 ## Note
 
