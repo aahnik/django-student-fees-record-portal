@@ -5,8 +5,7 @@ import csv
 
 from student_management.models import Student
 
-paths = ['/home/aahnik/Downloads/hsStu.csv',
-         '/home/aahnik/Downloads/stdentData.csv']
+paths = ['sample_data.csv']
 
 for path in paths:
     with open(path, 'r') as file:
