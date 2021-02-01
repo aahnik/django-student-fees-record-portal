@@ -1,5 +1,7 @@
 # iig_admin
 
+[![promoted](https://raw.githubusercontent.com/aahnik/aahnik/master/promoted/general.gif)](https://aahnik.github.io/aahnik/promoted/general.html)
+
 [![No Maintenance Intended | Archived](https://unmaintained.tech/badge.svg)](https://gitHub.com/aahnik/iig_admin/graphs/commit-activity)
 
 Simple student fee management portal for an institution. Made with Python using the Django framework. Deprecated and to be used no more. Use it for educational purposes. Sample Django application.
