@@ -1,6 +1,5 @@
-# iig_admin
+# django-student-fees-record-portal
 
-[![promoted](https://raw.githubusercontent.com/aahnik/aahnik/master/promoted/general.gif)](https://aahnik.github.io/aahnik/promoted/general.html)
 
 [![No Maintenance Intended | Archived](https://unmaintained.tech/badge.svg)](https://gitHub.com/aahnik/iig_admin/graphs/commit-activity)
 
